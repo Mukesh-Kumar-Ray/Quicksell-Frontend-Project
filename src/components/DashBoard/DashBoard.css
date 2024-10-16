@@ -1,0 +1,93 @@
+.dashContainer {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1.5%;
+  padding-top: 3%;
+  flex-wrap: wrap;
+  background-color: #f4f5f8;
+  background-position: fill;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  align-content: center;
+  gap: 5px;
+}
+
+.imageContainer{
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  
+}
+.cardTitle{
+  display: inline-block;
+  font-weight: 200;
+}
+.tags{
+  display: inline-block;
+}
+
+.dashCardHeading {
+  display: flex;
+  justify-content: space-between;
+}
+.leftView{
+  font-size: 15px;
+  margin-right: 90px;
+  word-spacing: 4px;
+}
+.light-text {
+  font-size: 13px;
+  font-weight: lighter;
+}
+.custom-text-color {
+  font-size: 13px;
+  color: #8F9997;
+}
+.spaced-text {
+  letter-spacing: 2px;
+}
+.leftView{
+  font-size: 15px;
+  margin-right: 60px;
+  word-spacing: 4px;
+}
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+  .dashCardContainer {
+    width: 30%;
+    /* Adjust the width based on your design */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashCardContainer {
+    width: 45%;
+    /* Adjust the width based on your design */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dashCardContainer {
+    width: 100%;
+    /* Full width on smaller screens */
+  }
+
+  .dashCardHeading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,59 @@
+.top-header {
+    padding-left: 13px; 
+}
+
+.displayButton {
+    position: relative; 
+}
+
+.btn {
+    background: #ffffff; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border: 2px solid #c1c1c1;
+    border-radius: 5px; 
+}
+
+.dropOnClick {
+    position: absolute; 
+    width: 220px; 
+    background-color: #e9eaee; 
+    border-radius: 8px; 
+    margin-top: 11px; 
+    z-index: 10; 
+}
+
+.dropOnClick > * {
+    width: 100%; 
+}
+
+.selectGroup {
+    padding: 2.5px; 
+    width: auto; 
+}
+
+.label {
+    font-size: 14px; 
+    color: #555b5a; 
+    margin-right: 10px;
+}
+
+.selectStyle {
+    width: 100px; 
+    border-radius: 5px; 
+    background: white; 
+    padding: 2px 5px; 
+}
+
+/* .selectStyle:focus {
+    border-color: #4f46e5; 
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.5); 
+} */
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .dropOnClick {
+        width: 100%; 
+        max-width: 300px; 
+    }
+}
